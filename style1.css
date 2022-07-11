@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+
+body{
+    background: url("../ella-don-Yu7Aln13PAU-unsplash (1).jpg");
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+header{
+    height:150px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1.titre_page{
+    color:white;
+    font-size: 40px;
+}
+
+h2{
+    border: solid white 1px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 20px;
+    border-radius:30px;
+}
+
+h2:hover{
+    border:solid white 2px;
+}
+
+div.animes_list_block{
+    background-color: #232230;
+    color:white; 
+    margin-top:100px;
+    height:150px;
+    border-radius: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul.animes_list{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+}
+
+div.films_list_block{
+    background-color: #aba7ec;
+    color:white; 
+    margin-top:100px;
+    height:150px;
+    border-radius: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul.films_list{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+}
+
+
+div.séries_list_block{
+    background-color: #ff0000;
+    color:white; 
+    margin-top:100px;
+    height:150px;
+    border-radius: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul.séries_list{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+}
+
+
+li{
+    padding:100px;
+}
